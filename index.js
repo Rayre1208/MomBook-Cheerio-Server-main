@@ -1,7 +1,7 @@
 const app = express();
 const port = 3000;
 
-app.get('/test', (req, res) => {
+app.get('/tester', (req, res) => {
   res.send({ some: "json" });
 });
 
